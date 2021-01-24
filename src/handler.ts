@@ -1,6 +1,7 @@
 import discord from 'discord.js';
-import "./commands/bruh"
 import Commands from './commands/index';
+
+
 export default async function handlebot(msg: discord.Message){
     //console all messages, except self
     if(!(msg.author.tag==="ashish-bot#3739")) console.log(`${msg.author.tag}: ${msg.content}`)
