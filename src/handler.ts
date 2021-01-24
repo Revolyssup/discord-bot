@@ -1,5 +1,5 @@
 import discord from 'discord.js';
-import Commands from './commands/index';
+import Commands from './commands';
 
 
 export default async function handlebot(msg: discord.Message){
